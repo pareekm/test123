@@ -19,7 +19,7 @@ To run this sample HTML page - input the IDs mentioned aboce and host as a simpl
     </script>
     
     <!-- this is the sandbox URL for Widgets.js -->
-    <script type='text/javascript' src='https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js?sellerId=AH3LW93GMRWDK'>
+    <script type='text/javascript' src='https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js?sellerId=A3BJWYGRGUJ1TH'>
        // *** Please replace with your Merchant ID ***
 
     </script>
@@ -32,7 +32,7 @@ To run this sample HTML page - input the IDs mentioned aboce and host as a simpl
     <div id="AmazonPay"></div>
     <script type="text/javascript">
       var authRequest;
-      OffAmazonPayments.Button("AmazonPay", "AH3LW93GMRWDK", {   // *** Please replace with your Merchant ID ***
+      OffAmazonPayments.Button("AmazonPay", "A3BJWYGRGUJ1TH", {   // *** Please replace with your Merchant ID ***
         type:  "PwA",
         color: "Gold",
         size:  "medium",
@@ -62,7 +62,7 @@ To run this sample HTML page - input the IDs mentioned aboce and host as a simpl
       function renderWidgets() {
         
         new OffAmazonPayments.Widgets.Wallet({
-          sellerId: 'AH3LW93GMRWDK',
+          sellerId: 'A3BJWYGRGUJ1TH',
           design: {
             size: {width:'400px', height:'260px'}
           },
@@ -88,7 +88,7 @@ To run this sample HTML page - input the IDs mentioned aboce and host as a simpl
 
         
         new OffAmazonPayments.Widgets.Consent({
-          sellerId: 'AH3LW93GMRWDK',
+          sellerId: 'A3BJWYGRGUJ1TH',
           // amazonBillingAgreementId obtained from the Amazon Address Book widget. 
           amazonBillingAgreementId: amazonBillingAgreementId, 
           design: {
